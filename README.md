@@ -1,6 +1,7 @@
 # Task List
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In order to access site, just click [here!](https://nawrockimateusz.github.io/todo-list-react/)
 
 ## Available Scripts
 
