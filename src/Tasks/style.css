@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-.listItem {
+.list__item {
     padding: 8px;
     margin: 5px;
     display: grid;
@@ -14,7 +14,7 @@
     border-bottom: 2px solid #eee;
 }
 
-.listItem--done {
+.list__item--done {
     text-decoration: line-through;
 }
 
@@ -23,16 +23,16 @@
     width: 30px;
     height: 30px;
     border: none;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .list__button--done {
     background-color: #056600;
-    transition: 0.5s;
 }
 
 .list__button--done:hover {
     background-color: #056600b6;
-    cursor: pointer;
 }
 
 .list__button--remove {
@@ -41,10 +41,8 @@
 
 .list__button--remove:hover {
     background-color: red;
-    cursor: pointer;
-    transition: 0.5s;
 }
 
-.listItem--hidden {
+.list__item--hidden {
     display: none;
 }

@@ -1,4 +1,4 @@
-.section__button {
+.buttons__button {
     background: none;
     border: none;
     color: teal;
@@ -6,21 +6,27 @@
     transition: 0.5s;
 }
 
-.section__button:hover {
+.buttons__button:hover {
     color: rgb(12, 201, 201);
     cursor: pointer;
 }
 
+.buttons__button:active {
+    color: red;
+}
+
 @media (max-width: 767px) {
-    .section__button {
+    .buttons__button {
         padding: 5px;
     }
-    .section__buttons {
+    .buttons {
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
 }
 
-.section__button:disabled {
+.buttons__button:disabled {
     color: #aaa;
     cursor: default;
 }
